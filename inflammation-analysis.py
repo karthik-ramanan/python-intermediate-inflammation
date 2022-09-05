@@ -17,7 +17,6 @@ def main(args):
     if not isinstance(InFiles, list):
         InFiles = [args.infiles]
 
-
     for filename in InFiles:
         inflammation_data = models.load_csv(filename)
 
